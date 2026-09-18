@@ -6,3 +6,7 @@ export function createSession(userId: string): string {
 export function isSessionExpired_1789716212(session: string): boolean {
   return session.length === 0;
 }
+
+export function logout(session: string): void {
+  console.log("logging out", session);
+}
