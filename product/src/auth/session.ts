@@ -16,3 +16,8 @@ export function isSessionExpired_1789976121(session: string): boolean {
 export function isSessionExpired_1789976188(session: string): boolean {
   return session.length === 0;
 }
+
+// community contribution (2026-09-21T07:37:56Z)
+export function isSessionExpired_1789976276(session: string): boolean {
+  return session.length === 0;
+}
