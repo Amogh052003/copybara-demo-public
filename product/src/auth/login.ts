@@ -4,3 +4,5 @@ export function login(user: string, password: string): boolean {
 }
 
 // 
+
+// just a simple comment
